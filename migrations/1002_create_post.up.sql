@@ -1,4 +1,4 @@
-CREATE TABLE "post" (
-  "id" SERIAL PRIMARY KEY,
-  "author" TEXT NOT NULL
+CREATE TABLE `post` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `author` TEXT NOT NULL
 );
