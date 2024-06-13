@@ -11,9 +11,9 @@ jobs:
   bytebase-sql-review:
     runs-on: ubuntu-latest
     env:
-      BYTEBASE_URL: "https://bytebase-ci.zeabur.app"
+      BYTEBASE_URL: "https://ri0y6abp.us-central1.bytebase.com"
       BYTEBASE_SERVICE_ACCOUNT: "ci@service.bytebase.com"
-      DATABASE: "instances/prod-instance/databases/example"
+      DATABASE: "instances/testrawsraurora/databases/RecruitCRM_vms"
     name: SQL Review
     steps:
       - name: Checkout
